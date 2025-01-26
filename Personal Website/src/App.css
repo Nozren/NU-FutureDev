@@ -1,0 +1,36 @@
+.top-portion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 500px;
+  width: 1250px;
+  font-size: 2rem; /* Adjust font size */
+  font-weight: bold; /* Make it stand out */
+  color: #f5f5f5; /* Soft white text color */
+  text-shadow: 0 0 5px rgba(173, 216, 230, 0.9); 
+}
+
+
+
+.oval {
+  width: 350px; /* Width of the oval */
+  height: 5px; /* Height of the oval */
+  background-color: #f5f5f5; /* Oval color */
+  border-radius: 5px; /* Makes the shape oval */
+  display: block; /* Ensures the shape behaves like an inline element */
+  box-shadow: 
+    0 0 5px rgba(255, 255, 255, 0.9),  /* Bright inner glow */
+    0 0 10px rgba(255, 255, 255, 0.8),  /* Outer glow */
+    0 0 15px rgba(173, 216, 230, 0.8),  /* Bluish moonlight glow */
+    0 0 20px rgba(173, 216, 230, 0.6);  /* Subtle outer layer */
+  transition: box-shadow 0.4s ease, transform 0.4s ease;
+  margin-top: -45px; /* Moves the oval down */
+  margin-left: 5px;
+}
+
+
+.subtitle {
+  font-size: 10px;
+}
+
+/*type git add . THEN git commit -m "message" THEN git push TO SAVE
